@@ -1,0 +1,25 @@
+#clockContainer{
+    margin: auto; /* for making centre  */
+    border: 2px solid red;
+    height: 40vw;/*vw means viewport width  */
+    width: 40vw;
+    background: url(clock.png) no-repeat ;
+    background-size: 100%; /* It is property for making clock centre  */
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black; 
+    border-radius: 10px;
+}
+
+#hour{
+    width: 4px;
+    height:34px ;
+}
+#minute{
+
+}
+#second{
+
+}
