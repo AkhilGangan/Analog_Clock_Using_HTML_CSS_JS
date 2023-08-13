@@ -1,25 +1,46 @@
-#clockContainer{
-    margin: auto; /* for making centre  */
+#clockContainer {
+    margin: auto;
+    /* for making centre  */
     border: 2px solid red;
-    height: 40vw;/*vw means viewport width  */
+    height: 40vw;
+    /*vw means viewport width  */
     width: 40vw;
-    background: url(clock.png) no-repeat ;
-    background-size: 100%; /* It is property for making clock centre  */
+    background: url(clock.png) no-repeat;
+    /* no repeat means  show only one time  */
+    background-size: 100%;
+    /* It is property for making clock centre  */
 }
 
-#hour, #minute, #second{
+#hour,
+#minute,
+#second {
     position: absolute;
-    background-color: black; 
+    background-color: black;
     border-radius: 10px;
 }
 
-#hour{
-    width: 4px;
-    height:34px ;
+#hour {
+    width: 1%;
+    height: 49%;
+    top: 21%;
+    left: 49.5%;
+    opacity: 0.8;
 }
-#minute{
 
+#minute {
+    width: 1%;
+    height: 49%;
+    top: 21%;
+    left: 49.5%;
+    opacity: 0.8;
+    display: none;
 }
-#second{
 
+#second {
+    width: 1%;
+    height: 49%;
+    top: 21%;
+    left: 49.5%;
+    opacity: 0.8;
+    display: none;
 }
